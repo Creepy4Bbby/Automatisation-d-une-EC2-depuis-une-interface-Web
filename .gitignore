@@ -1,0 +1,15 @@
+# Dossiers à ignorer
+.terraform/
+*.tfstate
+*.tfstate.*
+terraform.tfvars
+
+# Environnement Python
+venv/
+__pycache__/
+*.pyc
+
+# Fichiers sensibles ou inutiles
+*.log
+.env
+pyvenv.cfg
